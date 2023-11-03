@@ -1,0 +1,165 @@
+/* Begin Style Edits */
+a, button, input, .form .w-container *, .action-button__input div {
+    border-radius: 3px !important;
+}
+.action-button__input div {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+a:link:hover, button:hover {
+    color: #fff !important;
+}
+a.logo__link {
+    border: none;
+    padding-right: 1rem;
+    margin-top: 1.5rem;
+    width: 150px;
+}
+a.logo__link::after, a.logo__link::before {
+    content: "";
+    pointer-events: none;
+    border-top: 2px solid #3f3448;
+    display: block;
+    margin-right: calc(-50vw + 50%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
+a.logo__link::after {
+    margin-left: calc(-50vw + 50%);
+}
+a.logo__link h2 {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column-reverse;
+    line-height: 1.25rem;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+}
+a.logo__link h2::after {
+    content: "";
+    background-color: #ee8a8a75;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23ee8a8a' class='bi bi-suit-diamond-fill' viewBox='0 0 16 16'%3E%3Cpath d='M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2z'/%3E%3C/svg%3E");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 14px;
+    border-radius: 2px;
+    display: inline-block;
+    height: 20px;
+    width: 16px;
+    margin-right: 6px;
+    margin-bottom: 4px;
+}
+a.logo__link h2, a.logo__link h2::after {
+    transition: all .2s ease;
+}
+a.logo__link:hover h2 {
+    text-decoration-color: #ee8a8aba;
+}
+a.logo__link:hover h2::after {
+    background-color: #ee8a8a;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23ffffff' class='bi bi-suit-diamond-fill' viewBox='0 0 16 16'%3E%3Cpath d='M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2z'/%3E%3C/svg%3E");
+    transform: rotate(180deg);
+}
+div.w-block div:has(.header__logo) a.logo__link {
+    border: none;
+    margin-top: initial !important;
+    width: initial !important;
+}
+div.w-block div:has(.header__logo) a.logo__link::after, div.w-block div:has(.header__logo) a.logo__link::before {
+    display: none;
+}
+div.w-block div:has(.header__logo) a.logo__link h2 {
+    align-items: center !important;
+    justify-content: start !important;
+    flex-direction: row-reverse !important;
+}
+div.w-block div:has(.header__logo) a.logo__link h2::after {
+    margin-bottom: initial !important;
+}
+.main-container {
+    overflow-x: hidden;
+}
+.banner .image img {
+    width: 90% !important;
+}
+.section-details.row {
+    margin-bottom: 2.5rem !important;
+}
+.featured-categories-content {
+    position: relative;
+}
+.featured-categories-content::before {
+    content: "";
+    display: block;
+    background-color: transparent;
+    background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Untitled-Page_x25_201' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 266 266' style='enable-background:new 0 0 266 266;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:none;%7D .st1%7Bfill:url(%23SVGID_1_);%7D .st2%7Bfilter:url(%23filter1);%7D .st3%7Bfill:%23FFDFDF;%7D%0A%3C/style%3E%3Cfilter height='300%25' id='filter1' width='300%25' x='-100%25' y='-100%25'%3E%3C!-- Drop Shadow --%3E%3CfeOffset dx='0' dy='0' in='SourceGraphic' result='out'%3E%3C/feOffset%3E%3CfeColorMatrix in='out' result='out' type='matrix' values='0 0 0 1 0 0 0 0 0.2 0 0 0 0 0.6 0 0 0 0 1 0'%3E%3C/feColorMatrix%3E%3CfeGaussianBlur in='out' result='out' stdDeviation='17'%3E%3C/feGaussianBlur%3E%3CfeBlend in='SourceGraphic' in2='out' mode='normal' result='Drop_Shadow1'%3E%3C/feBlend%3E%3C!-- Glow --%3E%3CfeColorMatrix in='Drop_Shadow1' result='out' type='matrix' values='0 0 0 0.6 0 0 0 0 0.2 0 0 0 0 0.6 0 0 0 0 0.149 0'%3E%3C/feColorMatrix%3E%3CfeMorphology in='out' operator='dilate' radius='9' result='out'%3E%3C/feMorphology%3E%3CfeGaussianBlur in='out' result='out' stdDeviation='15'%3E%3C/feGaussianBlur%3E%3CfeBlend in='Drop_Shadow1' in2='out' mode='normal' result='Glow1'%3E%3C/feBlend%3E%3C/filter%3E%3Cpath class='st0' d='z'/%3E%3Cg id='Layer_x25_201'%3E%3ClinearGradient id='SVGID_1_' gradientUnits='userSpaceOnUse' x1='-822.3947' y1='672.4737' x2='-822.3947' y2='671.4737' gradientTransform='matrix(266 0 0 -266 218890 178878)'%3E%3Cstop offset='0.1212' style='stop-color:%233D1B65'/%3E%3Cstop offset='0.4949' style='stop-color:%23672667'/%3E%3Cstop offset='0.5' style='stop-color:%231E0828'/%3E%3Cstop offset='0.6061' style='stop-color:%23600733'/%3E%3Cstop offset='0.6263' style='stop-color:%236C0735'/%3E%3Cstop offset='0.7626' style='stop-color:%236C0735'/%3E%3C/linearGradient%3E%3Cpath class='st1' d='M0,133L133,0l133,133L133,266L0,133z'/%3E%3Cg class='st2'%3E%3Cpath class='st3' d='M89.4,115.2l-0.8,1.6c-1.9,4.1-3.3,7.4-4.2,9.7l-3.9,10.1c-1.9,5-3.7,9.9-4.1,11.5c-0.3,1.1-0.4,2.1-0.4,2.9 c0,1.2,0.3,2.1,1.3,3.6c1.1,1.6,2.3,2.5,3.5,2.5c1.1,0,1.6-0.4,3.7-2.4c1.3-1.3,2.2-2.1,4.1-3.9c2.1-1.9,4.3-3.7,6.4-5.5l9.5-8.3 c1.3-1.1,1.9-1.6,4.3-3.7c2.2-1.8,4.3-3.5,6.4-5.3c2.8-2.2,5-4.1,6.6-5.3c2.7-2.2,4.3-3.3,6.8-5.2c-0.8,2.2-1.1,3.1-2.2,4.9 c5.3-4.1,8.8-8.8,8.8-11.8c0-1.9-1.6-3.5-3.5-3.5c-1.2,0-1.9,0.4-3.6,2.2l-10.3,10.4c-6.5,6.6-15.4,14.8-22.6,20.9 c-5.2,4.4-8.8,7.2-13.6,10.3c0.8-3.1,1.3-4.6,2-7c2-6.4,5-14.5,7.3-19.8l4.6-10.7c0.4-1,0.6-1.6,0.6-2.3c0-1.9-1.9-4-3.7-4 c-0.8,0-1.4,0.4-2.8,1.4c-3.3,2.5-5.8,4.1-8.3,5.6c-1.6,0.9-3.7,1.9-4.7,2.3c-1.1,0.4-1.3,0.6-1.3,1.1c0,0.4,0.4,0.7,1,0.7 c0.5,0,1.4-0.2,3.4-0.6C84.7,116.8,86.9,116.2,89.4,115.2L89.4,115.2z'/%3E%3Cpath class='st3' d='M166.8,116.1c3.9-0.2,8.2-1.1,11-2.3c2-0.8,2.8-2,2.8-3.9c0-2-1.1-2.9-3.5-2.9c-7,0-20.1,3-28.8,6.5 c-7.2,3-10.2,5.2-10.2,7.9c0,2,1.1,5.5,2.4,6.7c1,1.1,2.9,1.8,5.3,1.7l9.5-0.1c4.3,0,8.3,0.5,10.5,1.4c1.2,0.5,1.9,1.5,1.9,2.6 c0,0.3-0.1,0.5-0.2,1c-2.8-0.6-4.8-0.8-8.2-0.8c-12.2,0-28.7,2.8-38.8,7.2c-3.8,1.6-5.3,3.5-5.3,7.2c0,6.8,3.9,11.4,9.4,11.4 c6.3,0,14.1-1.4,22.7-4.2c10.1-3.3,17-7.4,21.3-12.6c1.1-1.5,2.2-3.5,2.7-5.3c1.7,0.4,3.2,1.2,5.2,3c-0.1-2.2-1.5-3.6-5-5 c-0.1-2.4-0.8-4-2.1-5.6c-1.7-1.9-4.3-2.8-13.6-4.3c-4.3-0.8-8.5-1.7-9.8-2.3c-0.6-0.3-1-0.8-1-1.3c0-1,1.4-2.1,5-3.7 c6.5-2.9,14.8-5.2,21.8-5.9C170.3,114,169.6,114.6,166.8,116.1L166.8,116.1z M166.6,136.5c-3.3,4.6-7.8,7.8-15.3,11.1 c-8.7,3.8-20.1,6.5-27.7,6.5c-3.7,0-5.7-0.9-5.7-2.5c0-1.9,2.2-4.1,6.5-6.5c8.2-4.7,25.9-9.2,35.8-9.2 C162.5,135.9,164,136.1,166.6,136.5L166.6,136.5z'/%3E%3Cpath class='st3' d='M182.8,144.9c-1.2,0-2.5,0.8-4,2.4c-1.4,1.4-2.2,2.9-2.2,3.9c0,1.4,1.3,2.6,2.7,2.6c1,0,2.2-0.7,3.6-2.3 c1.5-1.6,2.4-3.1,2.4-4.2C185.3,146.1,184.1,144.9,182.8,144.9L182.8,144.9z'/%3E%3C/g%3E%3C/g%3E%3Cpath class='st0' d='z'/%3E%3C/svg%3E");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 20%;
+    height: 100%;
+    z-index: 2;
+}
+.featured-products-carousel > div {
+    padding-top: 2.5rem !important;
+}
+.copyright p {
+    color: #918799;
+}
+.w-block-wrapper:has(.free-footer) div > div {
+    background-color: #3f3448 !important;
+}
+.free-footer a.link, .free-footer a.link svg {
+    color: #fff !important;
+    mix-blend-mode: luminosity;
+}
+.header .icon, .header .hamburger-icon {
+    margin-top: -0.2rem;
+    vertical-align: middle;
+}
+.header .icon svg {
+    width: 27px;
+    height: 27px;
+}
+.search-bar .icon {
+    width: 25px;
+    height: 25px;
+}
+.nav--mobile ul li {
+    color: #ffdfdf !important;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: left;
+}
+.categories__button {
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+}
+.filter__button .icon {
+    width: 25px;
+    height: 25px;
+}
+/* Breakpoint and Down */
+@media screen and (max-width: 600px) {
+    .banner .image img {
+        width: 100% !important;
+    }
+    .featured-categories-content::before {
+        display: none;
+    }
+    .nav--footer, .main-content-wrapper + div div.w-container:has(.nav--footer) div:last-child div.text-component {
+        text-align: left;
+    }
+}
+/* End Style Edits */
