@@ -6,7 +6,7 @@ a, button, input, .form .w-container *, .action-button__input div {
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
 }
-a:link:hover, button:hover {
+a:hover, button:hover {
     color: #fff !important;
 }
 a.logo__link {
