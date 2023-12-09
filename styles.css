@@ -88,12 +88,16 @@ div.w-block div:has(.header__logo) a.logo__link h2::after {
 .banner .image img {
     width: 90% !important;
 }
+.banner .image img, .product-image__link-wrapper a div, .featured-category__image img, .product-gallery img {
+    border-radius: 0.3rem;
+}
 .section-details.row {
     margin-bottom: 2.5rem !important;
 }
 .featured-categories-content {
     position: relative;
 }
+/*
 .featured-categories-content::before {
     content: "";
     display: block;
@@ -111,6 +115,7 @@ div.w-block div:has(.header__logo) a.logo__link h2::after {
     height: 100%;
     z-index: 2;
 }
+*/
 .featured-products-carousel > div {
     padding-top: 2.5rem !important;
 }
