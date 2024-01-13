@@ -104,7 +104,7 @@ div.w-block div:has(.header__logo) a.logo__link h2::after {
 .featured-category__link-button {
     color: #fff;
 }
-.w-image-block.w-block-banner {
+.w-image-block.w-block-banner, .w-image-block.basic-text {
     background-color: rgba(0,0,153,0.25);
     background-blend-mode: color;
 }
